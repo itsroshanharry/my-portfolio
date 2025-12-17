@@ -31,7 +31,7 @@ export default function Portfolio() {
     { category: "LLMs & APIs", items: ["OpenAI GPT-4", "Claude", "Gemini", "Anthropic API", "Azure OpenAI"] },
     { category: "Workflow Automation", items: ["n8n", "Make", "Zapier", "Apache Airflow", "Temporal"] },
     { category: "ML/AI Tools", items: ["HuggingFace", "PyTorch", "TensorFlow", "LangSmith", "Weights & Biases"] },
-    { category: "Backend & Cloud", items: ["Python", "FastAPI", "Docker", "AWS", "Azure", "GCP"] },
+    { category: "Backend & Cloud", items: ["Python", "Node.JS", "FastAPI", "AWS", "Azure", "GCP"] },
     { category: "Vector DBs", items: ["Pinecone", "Weaviate", "Chroma", "FAISS", "Qdrant"] },
     { category: "Frontend", items: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Streamlit"] }
   ];
