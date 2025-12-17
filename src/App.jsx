@@ -68,6 +68,21 @@ export default function Portfolio() {
       github: "https://github.com/itsroshanharry/slack-n8n-workflow",
       youtube: "https://www.youtube.com/watch?v=tj6JSzW2JTE&t=18s",
       hasArchitecture: false
+    },
+    {
+      id: 3,
+      title: "Chat App with Real-Time Message and Notification Streaming",
+      description: "Engineered a scalable real-time chat application with zero message loss guarantee, supporting multi-server deployment. Architected event-driven system using Apache Kafka for reliable message delivery across distributed servers, Socket.IO for real-time WebSocket communication, Redis for sub-millisecond socket lookups and caching (80% DB load reduction), and PostgreSQL with Prisma ORM for transactional data integrity.",
+      tags: ["Node.js", "Socket.io", "Apache Kafka", "Redis", "PostgreSQL", "Prisma ORM"],
+      github: "https://github.com/itsroshanharry/swiftchat",
+      youtube: "https://www.youtube.com/watch?v=4brKi0LKvPM",
+      hasArchitecture: true,
+      architectureDiagrams: [
+        { name: "High-Level Design", path: "/my-portfolio/swiftchat-high-level-design.png" },
+        { name: "High-Level Component Architecture", path: "/my-portfolio/swiftchat-high-level-component-architecture.png" },
+        { name: "Low-Level Design", path: "/my-portfolio/swiftchat-low-level-design.png" },
+        { name: "Data Flow Diagram", path: "/my-portfolio/swiftchat-data-flow-diagram.png" }
+      ]
     }
   ];
 
