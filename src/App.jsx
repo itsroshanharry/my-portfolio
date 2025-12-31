@@ -50,9 +50,9 @@ export default function Portfolio() {
       id: 1,
       title: "Multi-Agent Orchestration System",
       description: "Architected an advanced agentic framework coordinating multiple AI agents with dynamic task allocation, inter-agent communication protocols, and autonomous decision-making capabilities. Fully deployed on AWS.",
-      tags: ["Strands", "Python", "AWS", "Lambda", "DynamoDB", "Api gateway", "WebSockets"],
+      tags: ["Strands", "Python", "AWS", "Lambda", "DynamoDB", "Api gateway", "AWS Bedrock", "Amazon OpenSearchServerless", "WebSockets"],
       github: "https://github.com/itsroshanharry/swarm-with-human-in-the-loop",
-      youtube: "https://www.youtube.com/watch?v=iajM20lhH-Y&t=2s",
+      youtube: "https://www.youtube.com/watch?v=iajM20lhH-Y&t",
       hasArchitecture: true,
       architectureDiagrams: [
         { name: "High-Level Architecture - Overview", path: "/my-portfolio/swarm-high-level-architecture-diagram1.png" },
@@ -66,7 +66,7 @@ export default function Portfolio() {
       description: "Built an intelligent Slack bot that converts natural language automation ideas into complete N8N workflows. Users describe their needs via text or voice, OpenAI Assistants API handles clarification, and Claude generates detailed step-by-step workflow instructions with node configurations.",
       tags: ["N8N", "Slack API", "OpenAI Assistants", "Claude"],
       github: "https://github.com/itsroshanharry/slack-n8n-workflow",
-      youtube: "https://www.youtube.com/watch?v=tj6JSzW2JTE&t=18s",
+      youtube: "https://www.youtube.com/watch?v=MOwvUANhS6s&t",
       hasArchitecture: false
     },
     {
